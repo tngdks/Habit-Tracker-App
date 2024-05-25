@@ -1,0 +1,9 @@
+on: push
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container: node:14
+    steps: 
+    - run: npm install node
+    - run: node -- version
+    - run: node index.js
