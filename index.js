@@ -22,7 +22,6 @@ app.use(express.json())
 
 // Setting up routes
 app.use(router);
-const PORT = process.env.PORT || 8000
-app.listen(PORT,()=>{
+app.listen(process.env.PORT || port ,()=>{
     console.log(`Server running at port: ${PORT}`);
 })
