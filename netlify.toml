@@ -1,4 +1,3 @@
-[buld]
-    command = "npm run build"
+[build]
     function = "function"
-    publish = "index.js"
+  
